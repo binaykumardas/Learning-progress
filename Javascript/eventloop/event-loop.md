@@ -3,12 +3,11 @@ setTimeout
 Promise.then
 # Which one executes first and why?
 - lets take one example:-
-console.log("Start");
 
+console.log("Start");
 setTimeout(() => {
   console.log("Timeout");
 }, 0);
-
 Promise.resolve().then(() => {
   console.log("Promise");
 });
