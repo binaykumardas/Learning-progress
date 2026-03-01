@@ -15,11 +15,13 @@ If the stack grows too large due to uncontrolled recursion, it results in a "Max
    - Created when the JavaScript file first runs.
    - There is only one global execution context.
    - Stays in the call stack until program finishes.
+
 2️⃣ Function Execution Context (FEC)
    - Created every time a function is invoked.
    - Each function call gets its own execution context.
    - Pushed to the call stack.
    - Removed after function finishes.
+
 3️⃣ Eval Execution Context (Rare / Advanced)
    - Created when code runs inside eval().
    - Very rarely used in real production.
