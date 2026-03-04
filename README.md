@@ -7,4 +7,5 @@ This is my daily learning progress
 - Change Detection
 
 #Javascript
-
+- Callback
+- Eventloop
