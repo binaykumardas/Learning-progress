@@ -6,6 +6,6 @@ This is my daily learning progress
 - RXJS
 - Change Detection
 
-#Javascript
+# Javascript
 - Callback
 - Eventloop
